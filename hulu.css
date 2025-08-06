@@ -1,0 +1,1585 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.hero_img {
+    width: 100%;
+    background-image: url('https://cnbl-cdn.bamgrid.com/assets/f09f88e62518d16cdd3d60796c1a1ebdba5a010807d8a09c55b0854e6a06668c/original');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+svg {
+    color: rgba(51, 255, 153, 0.8);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 35px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.login_btn {
+    margin-right: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_btn button {
+    height: 40px;
+    width: 100%;
+    background: none;
+    border: none;
+    /* color: gray; */
+    color: #a8afbd;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.login_btn button:hover {
+    width: 100%;
+    font-size: 15px;
+    /* background-color: #464647;
+    color: #ffffff; */
+    background-color: rgba(50, 56, 67, 0.984);
+    color: rgb(254, 254, 254);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* navbra end  */
+
+.subscription {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62vh;
+    gap: 25px;
+}
+
+.subscription .card1 {
+    height: 250px;
+    width: 30%;
+    text-align: center;
+}
+
+.subscription .card2 {
+    height: 250px;
+    width: 30%;
+    text-align: center;
+}
+
+#basic_bundle {
+    color: rgba(51, 255, 153, 0.8);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.subscription_logo {
+    height: 80px;
+    width: 100%;
+}
+
+.subscription_logo #logo {
+    height: 58px;
+    width: 65%;
+    margin: auto;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/e0b0db589c0a868e09b45daa56dea942dd63305fff8ca65c8587f33afcc39b0c/original);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    /* position: relative; */
+}
+
+/* #web-logo {
+    height: 65px;
+    width: 65%;
+    /* background-image: url(https://cnbl-cdn.bamgrid.com/assets/e0b0db589c0a868e09b45daa56dea942dd63305fff8ca65c8587f33afcc39b0c/original); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* margin-top: 10px; */
+    /* position: relative; */
+    /* right: 20px; */
+/* } */ 
+
+#price {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#price2  {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.purchase_btn {
+    margin-top: 10px;
+}
+
+#enroll1 {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(51, 255, 153, 0.8);
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #0b0c0f;
+    font-size: 14px;
+}
+
+.terms {
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+}
+
+.terms2 {
+    margin-top: 20px;
+    /* margin-left: 55px; */
+    color: white;
+}
+
+.subscription_logo2 {
+    height: 80px;
+    width: 100%;
+}
+
+#logo2 {
+    height: 70px;
+    width: 100%;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/eb03279ecf5dd44902cd6203c0a2f93a14d39262e4358f509a4f1547d9ce1f68/original);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+#max_bundle {
+    color: rgba(51, 255, 153, 0.8);
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+#enroll2 {
+    height: 40px;
+    width: 100%;
+    right: 70px;
+    background-color: rgba(51, 255, 153, 0.8);
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #0b0c0f;
+    font-size: 14px;
+    /* margin-top: 10px; */
+}
+
+#enroll1:hover,
+#enroll2:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* hero section end */
+
+.bg-path{
+    min-height: 180px;
+    width: 100%;
+    padding: 25px 75px;
+    background-color: #122b3b;
+}
+.plus_subscription {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 70px;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin-top: 20px;
+}
+
+.section1 {
+    width: 40%;
+}
+
+.plus_logo {
+    height: 50px;
+    width: 100%;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/c629ed6355489b892848ae0159082ec0ae10e26a177f051e9ac8ad933322d556/original);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.plus_bundle {
+    color: rgba(51, 255, 153, 0.8);
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plus_cost {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-top: 10px; */
+    width: 80%;
+    /* position: relative; */
+    /* left: 35px; */
+    margin-right: 25px;
+}
+
+.section2 a {
+    color: gray;
+    /* position: relative; */
+    right: 20px;
+    top: 5px;
+}
+ .btn{
+    /* height: 100px; */
+     width: 100%; 
+    /* / background-color: brown;  */
+
+}
+#plus_btn {
+    border: none;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(51, 255, 153, 0.8);
+    border-radius: 5px;
+    color: #0b0c0f;
+    font-weight: 700;
+    padding: 0px 24px;
+    
+
+}
+
+.plus_terms {
+   text-align: center;
+}
+
+.plus_terms a {
+    font-size: 12px;
+    color: gray;
+}
+
+/* main container */
+
+.main_container {
+    height: 100%;
+    width: 100%;
+    background-color: #0b0c0f;
+}
+
+.path1 {
+    padding: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.plans p {
+    color: rgba(51, 255, 153, 0.8);
+    font-weight: 700;
+    font-size: 13px;
+}
+
+#tv_love {
+    color: white;
+    font-size: 50px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+#tv_content {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 28px;
+}
+
+.path2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.path2 .card1 {
+    height: 540px;
+    width: 35%;
+    border-radius: 12px;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/1ec99371f77f5ae503b51dd6f05453184acf56feb4e474b0b2d5ea29b91883e4/original);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative;
+    top: 30px;/ */
+    /* margin-top: 30px; */
+}
+
+.top_content {
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.path2 .card2 {
+    height: 540px;
+    width: 35%;
+    border-radius: 12px;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/d7d0f056b4386699e6a5f4a2727f25baebc84c0329e919622fee46776892fa5d/original);
+    background-size: cover;
+    background-repeat: no-repeat;
+            /* position: relative;
+            top: 30px; */
+}
+
+.top_content {
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.path2 .card3 {
+    height: 540px;
+    width: 35%;
+    border-radius: 12px;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/62183f6d48d8844f3fb071c2b131cb1630c1753a770de1be7d076e2da787d455/original);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    /* top: 60px; */
+}
+
+.top_content {
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.path2 .card4 {
+    height: 540px;
+    width: 35%;
+    border-radius: 12px;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/5f2042653fa97c39c8cab0de73f649db75e20585a50472cdacd2787e417de5c8/original);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    /* top: 60p/x; */
+}
+
+.top_content {
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+#top1 {
+    font-size: 12px;
+}
+
+.top_content p {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.path2 .card1:hover,
+.path2 .card2:hover,
+.card3:hover,
+.card4:hover {
+    border: 3px solid grey;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.path3 {
+    margin-top: 70px;
+    padding: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.plans_ads p {
+    color: rgba(51, 255, 153, 0.8);
+    font-weight: 700;
+    font-size: 13px;
+}
+
+#watch_live {
+    color: white;
+    font-size: 50px;
+    margin-top: 15px;
+    font-weight: 700;
+    width: 95%;
+}
+
+#ads_content {
+    width: 62%;
+    color: #ffffff;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.free_trial_btn button {
+    border: none;
+    height: 50px;
+    width: 25%;
+    background-color: rgba(51, 255, 153, 0.8);
+    border-radius: 5px;
+    color: #0b0c0f;
+    font-weight: 700;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+#see_detail {
+    color: white;
+    margin-top: 15px;
+    font-size: 11px;
+    color: gray;
+    width: 88%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#see {
+    color: gray;
+    /* position: relative; */
+    /* right: 55px; */
+    font-size: 13px;
+}
+
+.view_channels {
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+.view_channels a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* PATH 4 */
+
+.path4 {
+    height: 650px;
+    width: 100%;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/3ab6ce86baaf4225b072c58fa9497ec949c0c9e284b3958ecda1429b7f3744f9/original);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.sub_navbar {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+    /* top: 180px; */
+    /* left/: 100px; */
+}
+
+.sub_navbar p {
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+.live_sports_path {
+    margin-top: 200px;
+}
+
+.live_content {
+    width: 40%;
+    text-align: left;
+    margin-left: 95px;
+    color: white;
+    margin-top: 10px;
+}
+
+.live_sports p {
+    color: white;
+    font-size: 50px;
+    margin-left: 95px;
+    font-weight: 700;
+}
+
+.sports_company {
+    height: 100px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: relative; */
+    /* left: 80px; */
+    margin-left: 80px;
+}
+
+.logo {
+    height: 55px;
+    width:14%;
+    background-image: url(https://www.hulu.com/static/hitch/static/logos/networks/network-logo-bg@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo .img1 img {
+    margin-top: 5px;
+    height: 25px;
+    width: 100%;
+}
+
+.logo .img2 img {
+    margin-top: 5px;
+    height: 25px;
+    width: 100%;
+}
+
+.logo .img3 img {
+    margin-top: 5px;
+    height: 25px;
+    width: 100%;
+
+}
+
+.logo .img4 img {
+    height: 25px;
+    width: 100%;
+
+}
+
+.logo .img5 img {
+    margin-top: 5px;
+    height: 25px;
+    width: 100%;
+}
+
+.live_details {
+    width: 50%;
+    /* text-align: left; */
+    font-size: 10px;
+    /* position: relative; */
+    /* left: 80px; */
+    margin-left: 80px;
+}
+
+.live_details a {
+    margin-left: 0;
+    font-weight: 700;
+    color: #b4b8b5;
+}
+
+.live_details p {
+    font-weight: 700;
+    color: #b4b8b5;
+}
+#Premium_network{
+    float: right;
+    color: gray;
+    font-size: 9px;
+    margin-top: 15px;
+    margin-right: 220px;
+}
+
+/* path4 end */
+
+.select_plan {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-size: 45px;
+}
+
+.plan_cancel {
+    text-align: center;
+    color: #b4b8b5;
+    margin-top: 15px;
+}
+
+.plan_cancel p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#switch_plan {
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.your_plan_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.your_plan_btn button {
+    border: none;
+    height: 40px;
+    width: 25%;
+    border-radius: 55px;
+    color: #0b0c0f;
+    font-weight: 700;
+}
+
+.path6 {
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.offer_plan1 {
+    /* height: 115x; */
+    width: 30%;
+}
+
+.offer_logo {
+    height: 50px;
+    width: 62%;
+    display: flex;
+    justify-content: center;
+}
+
+.disney_img1 {
+    height: 32px;
+    width: 100%;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/e0b0db589c0a868e09b45daa56dea942dd63305fff8ca65c8587f33afcc39b0c/original);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 80px;
+}
+
+.offer-content1 p {
+    font-size: 13px;
+    width: 70%;
+    text-align: end;
+}
+
+.offer_btn1 button {
+    height: 45px;
+    width: 90%;
+    background-color: white;
+    border: none;
+    right: 100px;
+    top: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.offer_percent1 {
+    height: 45px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer_percent1 p {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.offer_plan2{
+    width: 30%;
+}
+
+.disney_img2 {
+    height: 32px;
+    width: 55%;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/e0b0db589c0a868e09b45daa56dea942dd63305fff8ca65c8587f33afcc39b0c/original);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+}
+
+.offer_btn2 button {
+    height: 45px;
+    width: 90%;
+    background-color: white;
+    border: none;
+    right: 35px;
+    top: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 10px
+}
+
+.offer-content2 p {
+    font-size: 13px;
+    left: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+.offer_percent2 {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer_percent2 p {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+/* path 7 */
+
+.path7 {
+    margin-top: 15px;
+
+}
+
+.monthly_price {
+    height: 70px;
+    width: 100%;
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+    /* gap: 240px; */ 
+    
+}
+.month_p{
+    margin-left: 10px;
+}
+
+.month_cost{
+    display: flex;
+    /* justify-content: center ; */
+}
+.monthly_price #cost2 {
+    /* position: relative; */
+    /* right: 120px; */
+    margin-left: 260px;
+}
+.monthly_price #cost1{
+    margin-left: 360px;
+}
+
+hr {
+    height: 1px;
+    width: 98%;
+    margin-left: 10px;
+    background-color: gray;
+    border: none;
+}
+
+.included_plan {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    color: white;
+}
+
+.each_plan{
+        display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+.included_part{
+    display: flex;
+}
+#included1{
+    margin-left: 190px;
+}
+#included2{
+    margin-left: 210px;
+}
+
+.included_plan p {
+    /* margin-left: 10px; */
+}
+
+.movies_library {
+    display: flex;
+    color: white;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 285px; */
+}
+.movies_library p{
+    margin-left: 10px;
+    width: 80%;
+}
+.right{
+    /* display: contents; */
+    display: flex;
+}
+
+#tick1 {
+    height: 20px;
+    width: 6%;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* position: relative; */
+    /* right: 130px; */
+    margin-right: 305px;
+}
+
+#tick2 {
+    height: 20px;
+    width: 6%;
+    /* background-size: /cover; */
+    /* background-repeat: no-repeat; */
+    /* position: relative; */
+    /* right: 150px; */
+    margin-right: 155px;
+}
+
+.right2{
+    /* display: contents; */
+    display: flex;
+}
+.entertainment_disney {
+    display: flex;
+    color: white;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 285px; */;
+}
+.entertainment_disney p{
+    margin-left: 10px;
+}
+.entertainment_disney #tick1{
+    margin-left: 145px;
+}
+
+.right3{
+    /* display: contents; */
+    display: flex;
+}
+.new_episode {
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 285px; */
+    color: white;
+}
+
+.new_episode p{
+    margin-left: 10px;
+    width: 80%;
+    margin-right: 10px;
+}
+
+
+/* footer */
+
+footer {
+    height: 650px;
+    width: 100%;
+    background-color: #eeeff0;
+
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+ul {
+    width: 66%;
+    list-style-type: none;
+    color: #586174;
+}
+
+ul p {
+    color: #0b0c0f;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.colum1,
+.colum2,
+.colum3,
+.colum4,
+.colum5,
+.colum6 {
+    margin-top: 75px;
+    padding: 20px;
+
+}
+
+.colum2,
+.colum3,
+.colum4 li {
+    /* position: relative;
+    top: 20px; */
+    /* margin-top: 67px; */
+}
+
+.colum2,.colum3,.colum4{
+    margin-top: 90px;
+    /* gap: 30px; */
+    margin-left: 30px;
+}
+
+li {
+    margin-top: 11px;
+}
+
+.media_icons {
+    height: 50px;
+    width: 20%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.facbook {
+    height: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.facbook #icon {
+    height: 20px;
+    width: 22%;
+    background-image: url(https://www.hulu.com/static/hitch/static/icons/facebook.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.twitter {
+    height: 30px;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.twitter #icon {
+    height: 17px;
+    width: 32%;
+    background-image: url(https://www.hulu.com/static/hitch/static/icons/x_logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.youtube {
+    height: 30px;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.youtube #icon {
+    height: 18px;
+    width: 50%;
+    background-image: url(https://www.hulu.com/static/hitch/static/icons/youtube.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.insta {
+    height: 30px;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.insta #icon {
+    height: 20px;
+    width: 40%;
+    background-image: url(https://www.hulu.com/static/hitch/static/icons/instagram.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.copyright_content {
+    height: 30px;
+    width: 94%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    color: #586174;
+}
+
+.disclaimer_content {
+    height: 30px;
+    width: 71%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    color: #586174;
+}
+
+
+/* media queries */
+
+@media screen and (min-width:320px) and (max-width:720px){
+    .links{
+        display: none;
+    }
+    svg{
+        /* background-color: red; */
+        margin: 0px;
+    }
+    .login_btn{
+        margin-right: 0px;
+    }
+    .subscription {
+        gap: 25px;
+        padding: 0px 2px;
+        height: 220px;
+        margin-top: 30px;
+    }
+    #basic_bundle{
+        width: 85%;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .subscription .card1{
+        width: 45%;
+    }
+    .subscription_logo #logo{
+        height: 35px;
+        width: 80%;
+    }
+    .subscription_logo{
+        height: 50px;
+        width: 100%;
+    }
+    #price {
+    font-size: 13px;
+    font-weight: 700;
+    }
+    #enroll1{
+        font-size: 11px;
+        /* margin-left: 5px; */
+        width: 100%;
+    }
+    .terms{
+        margin-top: 2px;
+    }
+    .terms2{
+        margin-top: 2px;
+    }
+    a {
+    color: white;
+    font-size: 11px;
+    }
+    .subscription .card2{
+        width: 45%;
+    }
+    #max_bundle{
+        width: 87%;
+        font-size: 10px;
+        margin-left: 13px;
+    }
+    #logo2{
+        height: 34px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .subscription_logo2{
+        height: 50px;
+        width: 100%;
+    }
+    #price2 {
+    font-size: 13px;
+    font-weight: 700;
+    }
+    #enroll2{
+        font-size: 11px;
+        width: 100%;
+    }
+
+    /* hero section end */
+
+    .plus_bundle{
+        letter-spacing: 0.5px;
+        font-size: 7px;
+        font-weight: 0;
+    }
+    .plus_logo{
+        height: 30px;
+        width: 70%;
+        /* background-image: url(https://cnbl-cdn.bamgrid.com/assets/c629ed6355489b892848ae0159082ec0ae10e26a177f051e9ac8ad933322d556/original);
+        background-size: contain;
+        background-repeat: no-repeat; */
+    }
+    .plus_subscription{
+        flex-wrap: wrap;
+    }
+    .section1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .plus_cost {
+        color: white;
+        font-weight:lighter;
+        font-size: 6px;
+        width: 100%;
+        margin-right: 0px;
+        letter-spacing: 0.1px;
+    }
+    .section2 a {
+        color: gray;
+        width: 100%;
+        margin-left: 50px;
+        font-size: 9px;
+    }
+    #plus_btn {
+        border: none;
+        width: 100%;
+        height: 40px;
+        font-weight: 700;
+        padding: 0px 5px;
+        font-size: 9px;
+    }
+    .btn{
+        margin-left: 30px;
+        margin-top: 5px
+    }
+    .plus_terms {
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+    }
+    .plus_terms a {
+    font-size: 10px;
+    color: gray;
+    }
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    }
+    .path1 {
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    }
+    .plans p {
+        font-size: 11px;
+    }
+    #tv_love{
+        font-size: 19px;
+    }
+    #tv_content{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .path2{
+        gap: 10px;
+        padding: 0px 10px 0px 10px;
+    }
+    .path2 .card1 {
+    height: 300px;
+    width: 50%;
+    border-radius: 5px;
+    background-position: center;
+    }
+    .path2 .card2 {
+    height: 300px;
+    width: 50%;
+    border-radius: 5px;
+    background-position: center;
+    }
+    .path2 .card3 {
+    height: 300px;
+    width: 50%;
+    border-radius: 5px;
+    background-position: center;
+    }
+    .path2 .card4 {
+    height: 300px;
+    width: 50%;
+    border-radius: 5px;
+    background-position: center;
+    }
+    .top_content {
+    padding: 15px;
+    color: white;
+    font-weight: 700;
+    }
+    #top1 {
+    font-size: 10px;
+    }
+    .top_content p{
+        font-size: 15px;
+    }
+    .path3 {
+    margin-top: 80px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    }
+    .plans_ads p{
+        font-size: 9px;
+    }
+    #watch_live {
+    color: white;
+    font-size: 23px;
+    margin-top: 15px;
+    font-weight: 700;
+    width: 100%;
+    }
+    #ads_content {
+    width: 94%;
+    color: #ffffff;
+    font-size: 12px;
+    margin: auto;
+    margin-top: 35px;
+    }
+    .free_trial_btn button {
+        height: 40px;
+        width: 65%;
+        margin-top: 20px;
+    }
+    #see_detail {
+    /* color: white; */
+    /* margin-top: 15px; */
+    font-size: 7px;
+    color: gray;
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    }
+    #see{
+        font-size: 8px;
+    }
+    .view_channels a{
+        font-size: 10px;
+    }
+    .path4{
+        margin-top: 50px;
+        height: 310px;
+    }
+    .sub_navbar{
+        width: 95%;
+    }
+    .sub_navbar p {
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    .live_sports_path {
+    margin-top: 30px;
+    }
+    .live_sports p{
+        font-size: 25px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .live_content {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    color: white;
+    /* margin-top: 10px; */
+    padding: 10px;
+    }
+    .live_content p{
+        font-size: 13px;
+    }
+    .sports_company {
+    height: 53px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: relative; */
+    /* left: 80px; */
+    margin-left: 0;
+    padding: 20px
+    }
+    .logo{
+        height: 49px;
+        width: 18%;
+    }
+    .live_details {
+    width: 80%;
+    text-align: center;
+    font-size: 7px;
+    /* position: relative; */
+    /* left: 80px; */
+    margin-left: 35px;
+    padding: 10px;
+    margin-right: 35px;
+    }
+    .live_details a
+    {
+        font-size: 9px;
+    }
+    .select_plan {
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    .plan_cancel p{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    #switch_plan{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .your_plan_btn button {
+    height: 35px;
+    width: 55%;
+    border-radius: 15px;
+    }
+    .path6{
+        gap: 0;
+    }
+    .disney_img1 {
+    height: 27px;
+    width: 69%;
+    /* margin-right: 30px; */
+    margin-left: 0;
+    }
+    .offer_plan1{
+        width: 50%;
+    }
+    .offer_logo{
+        width: 80%;
+    }
+    .offer-content1 p {
+        font-size: 10px;
+        width: 85%;
+        text-align: end;
+    }
+    .offer_btn1 button {
+        height: 35px;
+        width: 91%;
+        background-color: white;
+        border: none;
+        right: 100px;
+        top: 10px;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .offer_plan2{
+        width: 50%;
+    }
+    .disney_img2 {
+    height: 27px;
+    width: 69%;
+    margin-left: 37px;
+    margin-right: 4px;
+    }
+    .offer-content2 p {
+        font-size: 10px;
+        width: 95%;
+        /* text-align: end; */
+    }
+    .offer_btn2 button {
+        height: 35px;
+        width: 91%;
+        background-color: white;
+        border: none;
+        right: 100px;
+        top: 10px;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    
+    .offer_percent1,.offer_percent2{
+        height: 30px;
+    }
+    .monthly_price{
+         gap: 0;
+        /* flex-wrap: wrap; */
+        flex-direction: column; 
+        height: 85px;
+        padding: 15px;
+    }
+    .month_p{
+        margin-left: 0;
+        font-size: 13px;
+    }
+    hr{
+        width: 95%;
+    }
+
+    .month_cost{
+    display: flex;
+    gap: 60px;
+    margin-top: 10px;
+    }
+    .monthly_price #cost1{
+        margin-left: 0;
+        font-size: 13px;
+    }
+    .monthly_price #cost2{
+        margin-left: 0;
+        font-size: 13px;
+    }
+    #cost2 del{
+        font-size: 10px;
+        /* color: aqua; */
+    }
+    #cost1 del{
+        font-size: 10px;
+    }
+    .included_plan{
+        flex-direction: column;
+        padding: 15px;
+        height: 85px;
+    }
+    .included_part{
+        gap: 90px;
+        font-size: 11px;
+        margin-top: 20px;
+    }
+    .each_plan p{
+        font-size: 13px;
+    }
+   
+    .included_part #included1{
+        margin-left: 0;
+    }
+    .included_part #included2{
+        margin-left: 0;
+    }
+    .movies_library{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .movies_library p{
+        width: 100%;
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .right{
+        gap: 150px;
+    }
+    #tick1{
+        height: 15px;
+        width: 15%;
+        margin-right: 0;
+    }
+    #tick2{
+        height: 15px;
+        width: 15%;
+        margin-right: 0;
+    }
+
+    .entertainment_disney{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .entertainment_disney #tick1{
+        height: 15px;
+        width: 15%;
+        margin-left: 0;
+    }
+    .right2{
+        gap: 150px;
+    }
+    .endless{
+        width: 100%;
+        font-size: 12px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .new_episode{
+        flex-direction: column;
+        padding: 10px;
+        height: 80px;
+    }
+    .right3{
+        gap: 150px;
+    }
+    .new_episode p{
+        width: 95%;
+        font-size: 12px;
+    }
+    .media_icons {
+        width: 62%;
+    }
+    .copyright_content{
+        flex-wrap: wrap;
+        gap: 25px;
+        height: 70px;
+        justify-content: left;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .copyright{
+        display: none;
+    }
+
+    .disclaimer_content {
+    height: 30px;
+    width: 77%;
+    margin-top: 46px;
+    display: flex;
+    font-size: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 13px;
+    margin-left: 15px;
+    margin-right: 15px;
+    }
+    .map{
+        margin-right: 197px;
+    }
+    #Premium_network{
+        display: none;
+    }
+    footer{
+        height: 290px;
+    }
+}
